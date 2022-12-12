@@ -21,7 +21,6 @@
     - [Install](#install)
     - [Run tests ](#run-tests-)
     - [Deployment ](#deployment-)
-  - [👥 Andrea Rivas Palacios ](#-andrea-rivas-palacios-)
   - [👥 Henschel Nketchogue Mpatchie](#-henschel-nketchogue-mpatchie)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -160,11 +159,6 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-## 👥 Andrea Rivas Palacios <a name="authors"></a>
-
-- GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
-- Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
-
 ## 👥 Henschel Nketchogue Mpatchie
 
 - GitHub: [miltonHenschel](https://github.com/miltonHenschel)
