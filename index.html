@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav">
+        <div id="nav-log">Awesome Books</div>
+        <ul id="nav-bar">
+          <li id="nav-list">Book List</li>
+          <li>|</li>
+          <li id="nav-add">Add Book</li>
+          <li>|</li>
+          <li id="nav-contact">Contact</li>
+        </ul>
+      </nav>
+      <div id="time"><p id="time-info"></p></div>
+    </header>
+
+    <section class="section">
+      <div>
+        <h1>All awesome books</h1>
+
+        <div class="books-display">
+          <div class="books-detail"></div>
+        </div>
+      </div>
+    </section>
+
+    <form class="add-book-form">
+      <div>
+        <h2 id="form-title">Add a new book</h2>
+
+        <div id="form-div">
+          <div class="title-book-form">
+            <input type="text" placeholder="Title" class="title-book-add" />
+          </div>
+
+          <div class="author-book-form">
+            <input class="author-book-add" type="text" placeholder="Author" />
+          </div>
+
+          <p class="error-message">*empty field</p>
+          <button class="btn-add">Add</button>
+        </div>
+      </div>
+    </form>
+
+    <section id="contact">
+      <div>
+        <h2 id="contact-title">Contact Information</h2>
+
+        <p id="contact-par">Do you have any questions or you just want to say "hello"? You can reach out to us:</p>
+
+        <ul id="contact-info">
+          <li>Our email: nketchoguemilton@gmail.com.</li>
+          <li>Our phone number: (+237) 653 555 688.</li>
+          <li>Our address: Yaoundé, Cameroon.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div><p>&#169; Copyright 2022</p></div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
