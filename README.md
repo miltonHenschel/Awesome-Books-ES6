@@ -21,7 +21,7 @@
     - [Install](#install)
     - [Run tests ](#run-tests-)
     - [Deployment ](#deployment-)
-  - [👥 Henschel Nketchogue Mpatchie](#-henschel-nketchogue-mpatchie)
+  - [👥 Henschel Nketchogue M. ](#-henschel-nketchogue-m-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -159,7 +159,8 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-## 👥 Henschel Nketchogue Mpatchie
+
+## 👥 Henschel Nketchogue M. <a name="authors"></a>
 
 - GitHub: [miltonHenschel](https://github.com/miltonHenschel)
 - LinkedIn: [henschelnketchoguem](https://www.linkedin.com/in/henschelnketchoguem/)
