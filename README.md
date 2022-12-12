@@ -21,7 +21,7 @@
     - [Install](#install)
     - [Run tests ](#run-tests-)
     - [Deployment ](#deployment-)
-  - [👥 Henschel Nketchogue M. ](#-henschel-nketchogue-m-)
+  - [Author](#author)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -160,7 +160,9 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Henschel Nketchogue M. <a name="authors"></a>
+## Author
+
+👥 Henschel Nketchogue M. <a name="authors"></a>
 
 - GitHub: [miltonHenschel](https://github.com/miltonHenschel)
 - LinkedIn: [henschelnketchoguem](https://www.linkedin.com/in/henschelnketchoguem/)
