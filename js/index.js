@@ -4,6 +4,7 @@ import Book from '../modules/book.js';
 import UI from '../modules/ui.js';
 import LocalStore from '../modules/localStore.js';
 import menuNav from '../modules/menuNav.js';
+import { DateTime } from "../modules/luxon.js";
 
 // "max-classes-per-file": "off"
 
@@ -55,3 +56,11 @@ btnAdd.addEventListener('click', (e) => {
 // GENERAL
 
 document.addEventListener('DOMContentLoaded', UI.showBooks);
+
+// TIME DISPLAY
+
+const timeDisplay = () => {
+  timeInfo.innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
+};
+
+document.addEventListener('DOMContentLoaded', timeDisplay);
