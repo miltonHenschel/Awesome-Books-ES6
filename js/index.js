@@ -1,6 +1,7 @@
 'use script';
 
 import Book from '../modules/book.js';
+import UI from '../modules/ui.js';
 
 // "max-classes-per-file": "off"
 
