@@ -1,5 +1,7 @@
 'use script';
 
+import Book from '../modules/book.js';
+
 // "max-classes-per-file": "off"
 
 const bookDisplay = document.querySelector('.books-display');
