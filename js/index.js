@@ -4,9 +4,11 @@ import Book from '../modules/book.js';
 import UI from '../modules/ui.js';
 import LocalStore from '../modules/localStore.js';
 import menuNav from '../modules/menuNav.js';
-import { DateTime } from "../modules/luxon.js";
+import { DateTime } from '../modules/luxon.js';
 
 // "max-classes-per-file": "off"
+
+// DECLARE GLOBAL VARIABLES
 
 const bookDisplay = document.querySelector('.books-display');
 const errorMsg = document.querySelector('.error-message');
@@ -15,7 +17,7 @@ const titleInput = document.querySelector('.title-book-add');
 const authorInput = document.querySelector('.author-book-add');
 const btnAdd = document.querySelector('.btn-add');
 
-menuNav();
+// CLICK ON REMOVE BUTTON
 
 bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
@@ -28,6 +30,8 @@ bookDisplay.addEventListener('click', (e) => {
     UI.deleteBookFromList(e.target);
   }
 });
+
+// CLICK ON ADD BUTTON
 
 btnAdd.addEventListener('click', (e) => {
   e.preventDefault();
@@ -55,12 +59,14 @@ btnAdd.addEventListener('click', (e) => {
 
 // GENERAL
 
-document.addEventListener('DOMContentLoaded', UI.showBooks);
+window.addEventListener('DOMContentLoaded', UI.showBooks);
+window.addEventListener('DOMContentLoaded', menuNav);
 
 // TIME DISPLAY
 
 const timeDisplay = () => {
+  const timeInfo = document.querySelector('#time-info');
   timeInfo.innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
 };
 
-document.addEventListener('DOMContentLoaded', timeDisplay);
+window.addEventListener('DOMContentLoaded', timeDisplay);
