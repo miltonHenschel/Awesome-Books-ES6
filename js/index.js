@@ -67,6 +67,7 @@ window.addEventListener('DOMContentLoaded', menuNav);
 const timeDisplay = () => {
   const timeInfo = document.querySelector('#time-info');
   timeInfo.innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
+  // timeInfo.innerHTML = DateTime.now();
 };
 
 window.addEventListener('DOMContentLoaded', timeDisplay);
