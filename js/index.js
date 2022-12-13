@@ -2,6 +2,8 @@
 
 import Book from '../modules/book.js';
 import UI from '../modules/ui.js';
+import LocalStore from '../modules/localStore.js';
+import menuNav from '../modules/menuNav.js';
 
 // "max-classes-per-file": "off"
 
@@ -11,6 +13,8 @@ const form = document.querySelector('.add-book-form');
 const titleInput = document.querySelector('.title-book-add');
 const authorInput = document.querySelector('.author-book-add');
 const btnAdd = document.querySelector('.btn-add');
+
+menuNav();
 
 bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
