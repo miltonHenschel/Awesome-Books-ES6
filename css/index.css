@@ -148,4 +148,5 @@ ul#contact-info {
   flex-direction: column;
   gap: 1rem;
   list-style-type: disc;
+  margin-left: 1rem;
 }
