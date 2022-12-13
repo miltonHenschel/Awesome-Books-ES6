@@ -47,3 +47,7 @@ btnAdd.addEventListener('click', (e) => {
   }
   form.reset();
 });
+
+// GENERAL
+
+document.addEventListener('DOMContentLoaded', UI.showBooks);
