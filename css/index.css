@@ -168,6 +168,6 @@ p.book-position {
   }
 
   button.btn-remove {
-    height: fit-content;
+    height: auto;
   }
 }
