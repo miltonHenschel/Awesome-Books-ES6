@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "github",
   "version": "1.0.0",
   "description": "",
@@ -20,6 +21,8 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "luxon": "^3.1.1"
+    "esm": "^3.2.25",
+    "luxon": "^3.1.1",
+    "milsymbol": "^2.0.0"
   }
 }
