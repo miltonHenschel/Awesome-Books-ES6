@@ -1,16 +1,17 @@
 class LocalStore {
-  static getBooks() {
+  static getBooks = () => {
     let books;
     const localBook = localStorage.getItem('local');
     if (!localBook) {
       books = [];
     } else {
       books = JSON.parse(localBook);
+      console.log('hey');
     }
     return books;
   }
 
-  static addBooks(newBook) {
+  static addBooks = (newBook) => {
     const books = LocalStore.getBooks();
     if (books) {
       books.push(newBook);

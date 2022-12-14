@@ -21,13 +21,13 @@ const btnAdd = document.querySelector('.btn-add');
 
 bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
-  window.location.reload();
   if (e.target.className === 'btn-remove') {
     const { id } = e.target;
     let books = LocalStore.getBooks();
     books = books.filter((bk) => JSON.stringify(bk.id) !== id);
     localStorage.setItem('local', JSON.stringify(books)); // LOCAL STORAGE
     UI.deleteBookFromList(e.target);
+    // window.location.reload();
   }
 });
 
@@ -35,7 +35,7 @@ bookDisplay.addEventListener('click', (e) => {
 
 btnAdd.addEventListener('click', (e) => {
   e.preventDefault();
-  window.location.reload();
+  // window.location.reload();
   const books = LocalStore.getBooks();
   const newTitle = titleInput.value;
   const newAuthor = authorInput.value;
@@ -67,7 +67,6 @@ window.addEventListener('DOMContentLoaded', menuNav);
 const timeDisplay = () => {
   const timeInfo = document.querySelector('#time-info');
   timeInfo.innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
-  // timeInfo.innerHTML = DateTime.now();
 };
 
 window.addEventListener('DOMContentLoaded', timeDisplay);

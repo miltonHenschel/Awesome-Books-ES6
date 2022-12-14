@@ -4,14 +4,14 @@ const bookDetail = document.querySelector('.books-detail');
 let newId = 0;
 
 class UI {
-  static showBooks() {
+  static showBooks = () => {
     const books = LocalStore.getBooks();
     books.forEach((newBook) => {
       UI.addBookToList(newBook);
     });
   }
 
-  static addBookToList(newBook) {
+  static addBookToList = (newBook) => {
     newBook.id = newId;
     const bookInfo = `
       <div id="${newId}">
@@ -23,7 +23,7 @@ class UI {
     newId += 1;
   }
 
-  static deleteBookFromList(e) {
+  static deleteBookFromList = (e) => {
     e.parentElement.remove();
   }
 }
