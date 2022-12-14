@@ -39,14 +39,14 @@ form input {
 
 button.btn-add {
   font-size: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 div.books-detail div {
   display: flex;
-  justify-content: space-between;
-  background-color: #dcdcdc;
   padding: 0.5rem;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 div.books-detail {
@@ -149,4 +149,25 @@ ul#contact-info {
   gap: 1rem;
   list-style-type: disc;
   margin-left: 1rem;
+}
+
+button.btn-remove {
+  width: fit-content;
+}
+
+p.book-position {
+  word-break: break-all;
+  background-color: #dcdcdc;
+}
+
+@media screen and (min-width: 768px) {
+  div.books-detail div {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  button.btn-remove {
+    height: fit-content;
+  }
 }

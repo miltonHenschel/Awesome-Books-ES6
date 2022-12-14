@@ -6,7 +6,6 @@ class LocalStore {
       books = [];
     } else {
       books = JSON.parse(localBook);
-      console.log('hey');
     }
     return books;
   }
