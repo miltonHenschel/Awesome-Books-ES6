@@ -34,6 +34,10 @@
 
 A basic website that allows users to add/remove books from a list using JavaScript ES6.
 
+![E](https://user-images.githubusercontent.com/87370519/215631910-ef28326f-ce76-48c8-8368-25d1b09bb14c.png)
+![E2](https://user-images.githubusercontent.com/87370519/215631917-3191c959-bda2-442e-976d-3bb3ade5b4d8.png)
+![E3](https://user-images.githubusercontent.com/87370519/215631927-fe0237fe-c107-489d-824c-b75811caf627.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
